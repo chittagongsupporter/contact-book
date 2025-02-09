@@ -8,6 +8,9 @@ public:
   // Data members
   std::vector<int> contacts;
 
+  // constructor
+  ContactBook();
+
   // Member functions
   void addContact(int contact);
   void removeContact(int contact);
