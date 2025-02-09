@@ -1,6 +1,6 @@
 #ifndef Contact_H
 #define Contact_H
-
+#include <iostream>
 class Contact
 {
 public:
@@ -18,3 +18,5 @@ public:
   std::string getName();
   std::string getPhoneNumber();
 };
+
+#endif
