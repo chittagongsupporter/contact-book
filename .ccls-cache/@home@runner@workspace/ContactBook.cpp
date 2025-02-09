@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdexcept>
 
+ContactBook::ContactBook() {}
 void ContactBook::addContact(int contact) { contacts.push_back(contact); }
 void ContactBook::removeContact(int contact) {
   for (auto it = contacts.begin(); it != contacts.end(); ++it) {
