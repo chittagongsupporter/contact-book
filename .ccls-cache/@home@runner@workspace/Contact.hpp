@@ -1,14 +1,13 @@
 #ifndef Contact_H
 #define Contact_H
-
-class Contact
-{
+#include <iostream>
+class Contact {
 public:
   // data members
   std::string name;
   std::string phoneNumber;
   // default constructor delegates to paramertized constructor
-  Contact()
+  Contact();
   // paramertized constructor
   Contact(std::string name, std::string phoneNumber);
 
@@ -18,3 +17,5 @@ public:
   std::string getName();
   std::string getPhoneNumber();
 };
+
+#endif
