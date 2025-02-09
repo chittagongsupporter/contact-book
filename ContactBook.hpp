@@ -1,6 +1,8 @@
 #ifndef ContactBook_H
 #define ContactBook_H
 
+#include <iostream>
+#include <stdexcept>
 #include <vector>
 
 class ContactBook {

@@ -1,6 +1,4 @@
 #include "ContactBook.hpp"
-#include <iostream>
-#include <stdexcept>
 
 ContactBook::ContactBook() {}
 void ContactBook::addContact(int contact) { contacts.push_back(contact); }
