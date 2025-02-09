@@ -14,8 +14,8 @@ public:
   // member functions
   void setName(std::string name);
   void setPhoneNumber(std::string phoneNumber);
-  std::string getName();
-  std::string getPhoneNumber();
+  std::string getName() const;
+  std::string getPhoneNumber() const;
 };
 
 #endif
