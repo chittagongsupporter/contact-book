@@ -3,17 +3,21 @@
 #include <iostream>
 class Contact {
 public:
-  // data members
+  // Data members
   std::string name;
   std::string phoneNumber;
-  // default constructor delegates to paramertized constructor
+
+  // Default constructor delegates to paramertized constructor
   Contact();
-  // paramertized constructor
+
+  // Paramertized constructor
   Contact(std::string name, std::string phoneNumber);
 
-  // member functions
+  // Setters
   void setName(std::string name);
   void setPhoneNumber(std::string phoneNumber);
+
+  // Getters
   std::string getName() const;
   std::string getPhoneNumber() const;
 };
